@@ -9,8 +9,6 @@
 #ifndef IMClone_IMDecls_h
 #define IMClone_IMDecls_h
 
-#import <Foundation/Foundation.h>
-
 #ifndef __has_builtin         // Optional of course.
 #define __has_builtin(x) 0  // Compatibility with non-clang compilers.
 #endif
@@ -38,6 +36,10 @@
 #error This product will not build without blocks. Please build with -fblocks.
 #endif
 
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+
 #if !__has_feature(objc_arc)
 #warning This product will leak memory without ARC. Please build with -fobjc-arc.
 #endif
@@ -50,8 +52,10 @@
 #warning This product will not function properly without -fobjc-default-synthesize-properties.
 #endif
 
+#endif
+
 #if  __has_extension(attribute_deprecated_with_message)
-#define IMDeprecated(x) = __attribute__((deprecated(x)))
+#define IMDeprecated(x) __attribute__((deprecated(x)))
 #else
 #define IMDeprecated(x)
 #endif
@@ -67,5 +71,7 @@
 #else
 #define IMInstanceType id
 #endif
+
+#define IMKitVersion "0.1.1-1r1 (git master)"
 
 #endif

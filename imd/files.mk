@@ -10,8 +10,8 @@
 
 CSRCS :=
 CXXSRCS :=
-OBJCSRCS := IMMessageCenter.m IMMessage.m NSData+DataSigning.m
+OBJCSRCS := main.m
 OBJCXXSRCS :=
-HEADERS := IMKit.h IMDecls.h IMMessageCenter.h IMMessage.h
+HEADERS := 
 
-PRODUCT := IMKit
+PRODUCT := imd

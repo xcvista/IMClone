@@ -6,10 +6,10 @@
 //  Copyright (c) 2013年 myWorld Creations. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <IMKit/IMDecls.h>
 
 @interface NSData (DataSigning)
 
-- (NSData *)sha512;
+- (NSData *)sha512 IMDeprecated("This should not be used as SSL will handle it.");
 
 @end
