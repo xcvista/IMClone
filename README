@@ -1,0 +1,21 @@
+IMClone: an iMessage clone.
+
+Modules:
+
+1)  IMKit: libIMKit.so (Linux), IMKit.framework (OS X, iOS)
+        IMKit is the client-side support and data model library for IMClone.
+
+2)  IMServer: libIMServer.so (Linux), IMServer.framework (OS X)
+        IMServer is the server library for IMClone. It is largely built on
+        Distributed Notification. Data structure is taken from INKit.
+
+3)  imd:
+        imd is the server executable which is a stub call into IMServer
+        framework. For Linux, it depends on gmcd.
+
+4)  IMTalk: IMTalk (Linux), IMTalk.app (OS X)
+        Desktop client UI for IMClone. Trademark name will be ÉtoiléMessage.
+
+5)  IMMobileTalk: IMMobileTalk.app (iOS)
+        Mobile UI for IMClone, universal app for iPhone and iPad. Trademark name
+        will be ÉtoiléMessage Mobile.

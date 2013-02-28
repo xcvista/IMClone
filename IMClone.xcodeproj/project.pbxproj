@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		1DD8995316DF3BF10082D274 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1DD8995416DF3C2D0082D274 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		1DD8994C16DF3BCC0082D274 = {
 			isa = PBXGroup;
 			children = (
+				1DD8995316DF3BF10082D274 /* .gitignore */,
+				1DD8995416DF3C2D0082D274 /* README */,
 			);
 			sourceTree = "<group>";
 		};
@@ -19,7 +26,9 @@
 		1DD8994D16DF3BCC0082D274 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IM;
 				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "myWorld Creations";
 			};
 			buildConfigurationList = 1DD8995016DF3BCC0082D274 /* Build configuration list for PBXProject "IMClone" */;
 			compatibilityVersion = "Xcode 3.2";
