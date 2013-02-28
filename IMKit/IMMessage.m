@@ -15,24 +15,21 @@ NSString *const IMServerTarget = @"server@im.maxius.tk";
 
 - (void)encodeWithCoder:(NSCoder *)aCoder
 {
-    NSDictionary *sourceDictionary = @{@"target": self.target,
-                                       @"message": self.message,
-                                       @"data": self.userData};
-    
-    NSData *sourceData = [NSPropertyListSerialization dataFromPropertyList:sourceDictionary
-                                                                    format:NSPropertyListBinaryFormat_v1_0
-                                                          errorDescription:nil];
-    
-    if (!sourceData)
-        return;
-    
-    NSData *hash = [sourceData sha512];
-    
-    // Generate the signature;
-    NSData *signature = [NSData dataWithData:hash];
-    
-    [aCoder encodeObject:sourceData forKey:@"data"];
-    [aCoder encodeObject:signature forKey:@"signature"];
+    [aCoder encodeObject:self.target forKey:@"target"];
+    [aCoder encodeObject:self.message forKey:@"message"];
+    [aCoder encodeObject:self.userData forKey:@"userData"];
 }
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    if (self = [super init])
+    {
+        self.target = [aDecoder decodeObjectForKey:@"target"];
+        self.message = [aDecoder decodeObjectForKey:@"message"];
+        self.userData = [aDecoder decodeObjectForKey:@"userData"];
+    }
+    return self;
+}
+
 
 @end

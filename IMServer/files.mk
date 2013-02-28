@@ -10,9 +10,9 @@
 
 CSRCS :=
 CXXSRCS :=
-OBJCSRCS := IMMessageServer.m
+OBJCSRCS := IMMessageServer.m IMMessageRouter.m
 OBJCXXSRCS :=
-HEADERS := IMServer.h IMServerDecls.h IMMessageServer.h
+HEADERS := IMServer.h IMServerDecls.h IMMessageServer.h IMMessageRouter.h
 
 PRODUCT := IMServer
 

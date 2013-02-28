@@ -30,7 +30,8 @@
 		1DD899B116DF7CF60082D274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD899B016DF7CF60082D274 /* main.m */; };
 		1DD899B916DF7CFE0082D274 /* IMServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD8998D16DF759A0082D274 /* IMServer.framework */; };
 		1DD899BA16DF7DD10082D274 /* IMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD8995A16DF3FB60082D274 /* IMKit.framework */; };
-		1DD899BD16DF85F20082D274 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 1DD899BC16DF85F20082D274 /* Makefile */; };
+		1DD899C116DFAA170082D274 /* IMMessageRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD899BF16DFAA170082D274 /* IMMessageRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD899C216DFAA170082D274 /* IMMessageRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD899C016DFAA170082D274 /* IMMessageRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +84,8 @@
 		1DD899BB16DF7E520082D274 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		1DD899BC16DF85F20082D274 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; usesTabs = 1; };
 		1DD899BE16DF861C0082D274 /* files.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = files.mk; sourceTree = "<group>"; };
+		1DD899BF16DFAA170082D274 /* IMMessageRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageRouter.h; sourceTree = "<group>"; };
+		1DD899C016DFAA170082D274 /* IMMessageRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessageRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +197,8 @@
 				1DD899A216DF76560082D274 /* IMServerDecls.h */,
 				1DD8999E16DF75C60082D274 /* IMMessageServer.h */,
 				1DD8999F16DF75C60082D274 /* IMMessageServer.m */,
+				1DD899BF16DFAA170082D274 /* IMMessageRouter.h */,
+				1DD899C016DFAA170082D274 /* IMMessageRouter.m */,
 				1DD8999016DF759A0082D274 /* Supporting Files */,
 			);
 			path = IMServer;
@@ -253,6 +258,7 @@
 				1DD8999D16DF75B50082D274 /* IMServer.h in Headers */,
 				1DD899A016DF75C60082D274 /* IMMessageServer.h in Headers */,
 				1DD899A316DF76560082D274 /* IMServerDecls.h in Headers */,
+				1DD899C116DFAA170082D274 /* IMMessageRouter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD899A116DF75C60082D274 /* IMMessageServer.m in Sources */,
+				1DD899C216DFAA170082D274 /* IMMessageRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +393,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD899B116DF7CF60082D274 /* main.m in Sources */,
-				1DD899BD16DF85F20082D274 /* Makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

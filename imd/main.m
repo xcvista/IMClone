@@ -15,10 +15,12 @@ int main(int argc, const char * argv[])
         
         NSArray *args = [[NSProcessInfo processInfo] arguments];
         
-        NSUInteger versionIndex = [args indexOfObject:@"--version"];
-        NSUInteger helpIndex = [args indexOfObject:@"--help"];
+        if ([args count] > 1)
+            args = [args subarrayWithRange:NSMakeRange(1, [args count] - 1)];
+        else
+            args = @[];
         
-        if (versionIndex != NSNotFound && versionIndex > 0)
+        if ([args indexOfObject:@"--version"] != NSNotFound)
         {
             // Show the version info.
             eprintf("IMServer %s\n", IMServerVersion);
@@ -29,22 +31,39 @@ int main(int argc, const char * argv[])
             exit(0);
         }
         
-        if (helpIndex != NSNotFound && helpIndex > 0)
+        if ([args indexOfObject:@"--help"] != NSNotFound)
         {
             // Show the help info.
             eprintf("IMServer %s\n", IMServerVersion);
             eprintf("IMKit %s\n", IMKitVersion);
             eprintf("\n");
-            eprintf("USAGE:\t%s [--detach]\n", [[(NSString *)args[0] lastPathComponent] cStringUsingEncoding:[NSString defaultCStringEncoding]]);
-            eprintf("\t--detach: Detach after spawn - run as classical UNIX daemon.\n");
-            eprintf("\t          Do not use --detach with upstart and launchd.\n");
+            eprintf("USAGE:\t%s [--reload] [--stop]\n", [[(NSString *)args[0] lastPathComponent] cStringUsingEncoding:[NSString defaultCStringEncoding]]);
+            eprintf("\t--reload: Cause the server to reload its settings.\n");
+            eprintf("\t--stop:   Stop the server\n");
             eprintf("\n");
             eprintf("This is FREE SOFTWARE. You can freely use, modify, copy and redistribute this software.\n");
             eprintf("Built with %s %s.\n", CC_TYPE, __clang_version__);
             exit(0);
         }
         
-        [[IMMessageServer messageServer] launch];
+        BOOL launch = YES;
+        
+        if ([args indexOfObject:@"--reload"] != NSNotFound)
+        {
+            [[NSDistributedNotificationCenter defaultCenter] postNotificationName:IMMessageServerReloadNotification
+                                                                           object:nil];
+            launch = NO;
+        }
+        
+        if ([args indexOfObject:@"--stop"] != NSNotFound)
+        {
+            [[NSDistributedNotificationCenter defaultCenter] postNotificationName:IMMessageServerStopNotification
+                                                                           object:nil];
+            launch = NO;
+        }
+        
+        if (launch)
+            [[IMMessageServer messageServer] launch];
         
     }
     return 0;
