@@ -19,3 +19,6 @@ Modules:
 5)  IMMobileTalk: IMMobileTalk.app (iOS)
         Mobile UI for IMClone, universal app for iPhone and iPad. Trademark name
         will be ÉtoiléMessage Mobile.
+
+6)  IMApplePushModule: IMApplePushModule.bundle (OS X), libApplePushModule (iOS)
+        A bundle to add Apple Push Notification for OS X and iOS.
