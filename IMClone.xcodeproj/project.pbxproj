@@ -7,7 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1DD8995E16DF3FB60082D274 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD8995D16DF3FB60082D274 /* Cocoa.framework */; };
+		1D8F7ADD16DFDDCC0085E5DA /* IMMessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8997616DF46F10082D274 /* IMMessageCenter.m */; };
+		1D8F7ADE16DFDDCF0085E5DA /* IMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8997E16DF5B030082D274 /* IMMessage.m */; };
+		1D8F7ADF16DFDDD20085E5DA /* NSData+DataSigning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8998316DF63FE0082D274 /* NSData+DataSigning.m */; };
+		1D8F7AE016DFDDD80085E5DA /* IMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8996A16DF3FB70082D274 /* IMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8F7AE116DFDDDB0085E5DA /* IMDecls.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8997016DF3FDB0082D274 /* IMDecls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8F7AE216DFDDDE0085E5DA /* IMMessageCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8997516DF46F10082D274 /* IMMessageCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8F7AE316DFDDE30085E5DA /* IMMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8997D16DF5B030082D274 /* IMMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D8F7AE416DFDDE70085E5DA /* NSData+DataSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8998216DF63FE0082D274 /* NSData+DataSigning.h */; };
+		1D8F7AF416DFDE2D0085E5DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D8F7AF216DFDE2D0085E5DA /* InfoPlist.strings */; };
+		1D8F7AF616DFDE2D0085E5DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F7AF516DFDE2D0085E5DA /* main.m */; };
+		1D8F7AFA16DFDE2E0085E5DA /* IMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F7AF916DFDE2E0085E5DA /* IMAppDelegate.m */; };
+		1D8F7AFC16DFDE2E0085E5DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D8F7AFB16DFDE2E0085E5DA /* Default.png */; };
+		1D8F7AFE16DFDE2E0085E5DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D8F7AFD16DFDE2E0085E5DA /* Default@2x.png */; };
+		1D8F7B0016DFDE2E0085E5DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D8F7AFF16DFDE2E0085E5DA /* Default-568h@2x.png */; };
+		1D8F7B0B16DFDE910085E5DA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8F7B0A16DFDE910085E5DA /* MainStoryboard.storyboard */; };
+		1D8F7B0C16DFDF420085E5DA /* MobileIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F7AD116DFDDB00085E5DA /* MobileIMKit.framework */; };
+		1D8F7B0F16DFE0CF0085E5DA /* IMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F7B0E16DFE0CF0085E5DA /* IMLoginViewController.m */; };
+		1D8F7B1216DFE8210085E5DA /* IMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F7B1116DFE8210085E5DA /* IMMainViewController.m */; };
+		1D8F7B1616DFEC170085E5DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F7B1516DFEC170085E5DA /* Foundation.framework */; };
+		1D8F7B1716DFEC340085E5DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F7B1516DFEC170085E5DA /* Foundation.framework */; };
+		1D8F7B1816DFEC3D0085E5DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F7B1516DFEC170085E5DA /* Foundation.framework */; };
+		1D8F7B1A16DFEC480085E5DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F7B1916DFEC480085E5DA /* Foundation.framework */; };
+		1D8F7B1B16DFEC6B0085E5DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F7B1916DFEC480085E5DA /* Foundation.framework */; };
+		1D8F7B1E16DFEC6B0085E5DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F7B1C16DFEC6B0085E5DA /* CoreGraphics.framework */; };
+		1D8F7B1F16DFEC6B0085E5DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8F7B1D16DFEC6B0085E5DA /* UIKit.framework */; };
 		1DD8996816DF3FB70082D274 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8996616DF3FB70082D274 /* InfoPlist.strings */; };
 		1DD8997116DF40470082D274 /* IMDecls.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8997016DF3FDB0082D274 /* IMDecls.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DD8997216DF404C0082D274 /* IMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8996A16DF3FB70082D274 /* IMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,7 +42,6 @@
 		1DD8998416DF63FE0082D274 /* NSData+DataSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8998216DF63FE0082D274 /* NSData+DataSigning.h */; };
 		1DD8998516DF63FE0082D274 /* NSData+DataSigning.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8998316DF63FE0082D274 /* NSData+DataSigning.m */; };
 		1DD8998716DF74120082D274 /* files.mk in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8998616DF74120082D274 /* files.mk */; };
-		1DD8998E16DF759A0082D274 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD8995D16DF3FB60082D274 /* Cocoa.framework */; };
 		1DD8999416DF759A0082D274 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8999216DF759A0082D274 /* InfoPlist.strings */; };
 		1DD8999C16DF75A20082D274 /* IMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD8995A16DF3FB60082D274 /* IMKit.framework */; };
 		1DD8999D16DF75B50082D274 /* IMServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8999616DF759A0082D274 /* IMServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,7 +49,6 @@
 		1DD899A116DF75C60082D274 /* IMMessageServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8999F16DF75C60082D274 /* IMMessageServer.m */; };
 		1DD899A316DF76560082D274 /* IMServerDecls.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD899A216DF76560082D274 /* IMServerDecls.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DD899A716DF78750082D274 /* files.mk in Resources */ = {isa = PBXBuildFile; fileRef = 1DD899A616DF78750082D274 /* files.mk */; };
-		1DD899AE16DF7CF60082D274 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD899AD16DF7CF60082D274 /* Foundation.framework */; };
 		1DD899B116DF7CF60082D274 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD899B016DF7CF60082D274 /* main.m */; };
 		1DD899B916DF7CFE0082D274 /* IMServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD8998D16DF759A0082D274 /* IMServer.framework */; };
 		1DD899BA16DF7DD10082D274 /* IMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD8995A16DF3FB60082D274 /* IMKit.framework */; };
@@ -47,13 +69,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1D8F7AD116DFDDB00085E5DA /* MobileIMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = MobileIMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8F7AE916DFDE2D0085E5DA /* MobileIMTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileIMTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8F7AF116DFDE2D0085E5DA /* MobileIMTalk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileIMTalk-Info.plist"; sourceTree = "<group>"; };
+		1D8F7AF316DFDE2D0085E5DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D8F7AF516DFDE2D0085E5DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D8F7AF716DFDE2E0085E5DA /* MobileIMTalk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileIMTalk-Prefix.pch"; sourceTree = "<group>"; };
+		1D8F7AF816DFDE2E0085E5DA /* IMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMAppDelegate.h; sourceTree = "<group>"; };
+		1D8F7AF916DFDE2E0085E5DA /* IMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAppDelegate.m; sourceTree = "<group>"; };
+		1D8F7AFB16DFDE2E0085E5DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1D8F7AFD16DFDE2E0085E5DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1D8F7AFF16DFDE2E0085E5DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1D8F7B0A16DFDE910085E5DA /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1D8F7B0D16DFE0CF0085E5DA /* IMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLoginViewController.h; sourceTree = "<group>"; };
+		1D8F7B0E16DFE0CF0085E5DA /* IMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLoginViewController.m; sourceTree = "<group>"; };
+		1D8F7B1016DFE8210085E5DA /* IMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMainViewController.h; sourceTree = "<group>"; };
+		1D8F7B1116DFE8210085E5DA /* IMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMainViewController.m; sourceTree = "<group>"; };
+		1D8F7B1516DFEC170085E5DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1D8F7B1916DFEC480085E5DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1D8F7B1C16DFEC6B0085E5DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1D8F7B1D16DFEC6B0085E5DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1DD8995316DF3BF10082D274 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1DD8995416DF3C2D0082D274 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		1DD8995A16DF3FB60082D274 /* IMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DD8995D16DF3FB60082D274 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		1DD8996016DF3FB70082D274 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		1DD8996116DF3FB70082D274 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1DD8996216DF3FB70082D274 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DD8996516DF3FB70082D274 /* IMKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IMKit-Info.plist"; sourceTree = "<group>"; };
 		1DD8996716DF3FB70082D274 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DD8996916DF3FB70082D274 /* IMKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IMKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -78,7 +116,6 @@
 		1DD899A416DF77BF0082D274 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; usesTabs = 1; };
 		1DD899A616DF78750082D274 /* files.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = files.mk; sourceTree = "<group>"; };
 		1DD899AC16DF7CF60082D274 /* imd */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = imd; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DD899AD16DF7CF60082D274 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DD899B016DF7CF60082D274 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1DD899B316DF7CF60082D274 /* imd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imd-Prefix.pch"; sourceTree = "<group>"; };
 		1DD899BB16DF7E520082D274 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
@@ -89,11 +126,30 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1D8F7ACB16DFDDB00085E5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F7B1A16DFEC480085E5DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8F7AE616DFDE2D0085E5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F7B1E16DFEC6B0085E5DA /* CoreGraphics.framework in Frameworks */,
+				1D8F7B1F16DFEC6B0085E5DA /* UIKit.framework in Frameworks */,
+				1D8F7B1B16DFEC6B0085E5DA /* Foundation.framework in Frameworks */,
+				1D8F7B0C16DFDF420085E5DA /* MobileIMKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DD8995616DF3FB60082D274 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DD8995E16DF3FB60082D274 /* Cocoa.framework in Frameworks */,
+				1D8F7B1616DFEC170085E5DA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +157,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8F7B1716DFEC340085E5DA /* Foundation.framework in Frameworks */,
 				1DD8999C16DF75A20082D274 /* IMKit.framework in Frameworks */,
-				1DD8998E16DF759A0082D274 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,15 +166,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8F7B1816DFEC3D0085E5DA /* Foundation.framework in Frameworks */,
 				1DD899BA16DF7DD10082D274 /* IMKit.framework in Frameworks */,
 				1DD899B916DF7CFE0082D274 /* IMServer.framework in Frameworks */,
-				1DD899AE16DF7CF60082D274 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D8F7AEF16DFDE2D0085E5DA /* MobileIMTalk */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F7AF816DFDE2E0085E5DA /* IMAppDelegate.h */,
+				1D8F7AF916DFDE2E0085E5DA /* IMAppDelegate.m */,
+				1D8F7B0A16DFDE910085E5DA /* MainStoryboard.storyboard */,
+				1D8F7B0D16DFE0CF0085E5DA /* IMLoginViewController.h */,
+				1D8F7B0E16DFE0CF0085E5DA /* IMLoginViewController.m */,
+				1D8F7B1016DFE8210085E5DA /* IMMainViewController.h */,
+				1D8F7B1116DFE8210085E5DA /* IMMainViewController.m */,
+				1D8F7AF016DFDE2D0085E5DA /* Supporting Files */,
+			);
+			path = MobileIMTalk;
+			sourceTree = "<group>";
+		};
+		1D8F7AF016DFDE2D0085E5DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F7AF116DFDE2D0085E5DA /* MobileIMTalk-Info.plist */,
+				1D8F7AF216DFDE2D0085E5DA /* InfoPlist.strings */,
+				1D8F7AF516DFDE2D0085E5DA /* main.m */,
+				1D8F7AF716DFDE2E0085E5DA /* MobileIMTalk-Prefix.pch */,
+				1D8F7AFB16DFDE2E0085E5DA /* Default.png */,
+				1D8F7AFD16DFDE2E0085E5DA /* Default@2x.png */,
+				1D8F7AFF16DFDE2E0085E5DA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D8F7B1316DFEB930085E5DA /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F7B1516DFEC170085E5DA /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		1D8F7B1416DFEB9C0085E5DA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F7B1C16DFEC6B0085E5DA /* CoreGraphics.framework */,
+				1D8F7B1916DFEC480085E5DA /* Foundation.framework */,
+				1D8F7B1D16DFEC6B0085E5DA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		1DD8994C16DF3BCC0082D274 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +230,7 @@
 				1DD8996316DF3FB70082D274 /* IMKit */,
 				1DD8998F16DF759A0082D274 /* IMServer */,
 				1DD899AF16DF7CF60082D274 /* imd */,
+				1D8F7AEF16DFDE2D0085E5DA /* MobileIMTalk */,
 				1DD8995C16DF3FB60082D274 /* Frameworks */,
 				1DD8995B16DF3FB60082D274 /* Products */,
 			);
@@ -138,6 +242,8 @@
 				1DD8995A16DF3FB60082D274 /* IMKit.framework */,
 				1DD8998D16DF759A0082D274 /* IMServer.framework */,
 				1DD899AC16DF7CF60082D274 /* imd */,
+				1D8F7AD116DFDDB00085E5DA /* MobileIMKit.framework */,
+				1D8F7AE916DFDE2D0085E5DA /* MobileIMTalk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,21 +251,10 @@
 		1DD8995C16DF3FB60082D274 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1DD8995D16DF3FB60082D274 /* Cocoa.framework */,
-				1DD899AD16DF7CF60082D274 /* Foundation.framework */,
-				1DD8995F16DF3FB60082D274 /* Other Frameworks */,
+				1D8F7B1416DFEB9C0085E5DA /* iOS */,
+				1D8F7B1316DFEB930085E5DA /* OS X */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1DD8995F16DF3FB60082D274 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1DD8996016DF3FB70082D274 /* AppKit.framework */,
-				1DD8996116DF3FB70082D274 /* CoreData.framework */,
-				1DD8996216DF3FB70082D274 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		1DD8996316DF3FB70082D274 /* IMKit */ = {
@@ -239,6 +334,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1D8F7ACC16DFDDB00085E5DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F7AE016DFDDD80085E5DA /* IMKit.h in Headers */,
+				1D8F7AE116DFDDDB0085E5DA /* IMDecls.h in Headers */,
+				1D8F7AE216DFDDDE0085E5DA /* IMMessageCenter.h in Headers */,
+				1D8F7AE316DFDDE30085E5DA /* IMMessage.h in Headers */,
+				1D8F7AE416DFDDE70085E5DA /* NSData+DataSigning.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DD8995716DF3FB60082D274 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,6 +372,44 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1D8F7AD016DFDDB00085E5DA /* MobileIMKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8F7ADC16DFDDB00085E5DA /* Build configuration list for PBXNativeTarget "MobileIMKit" */;
+			buildPhases = (
+				1D8F7AC916DFDDB00085E5DA /* ShellScript */,
+				1D8F7ACA16DFDDB00085E5DA /* Sources */,
+				1D8F7ACB16DFDDB00085E5DA /* Frameworks */,
+				1D8F7ACC16DFDDB00085E5DA /* Headers */,
+				1D8F7ACD16DFDDB00085E5DA /* Resources */,
+				1D8F7ACE16DFDDB00085E5DA /* ShellScript */,
+				1D8F7ACF16DFDDB00085E5DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileIMKit;
+			productName = MobileIMKit;
+			productReference = 1D8F7AD116DFDDB00085E5DA /* MobileIMKit.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+		1D8F7AE816DFDE2D0085E5DA /* MobileIMTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8F7B0716DFDE2E0085E5DA /* Build configuration list for PBXNativeTarget "MobileIMTalk" */;
+			buildPhases = (
+				1D8F7AE516DFDE2D0085E5DA /* Sources */,
+				1D8F7AE616DFDE2D0085E5DA /* Frameworks */,
+				1D8F7AE716DFDE2D0085E5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileIMTalk;
+			productName = MobileIMTalk;
+			productReference = 1D8F7AE916DFDE2D0085E5DA /* MobileIMTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
 		1DD8995916DF3FB60082D274 /* IMKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DD8996D16DF3FB70082D274 /* Build configuration list for PBXNativeTarget "IMKit" */;
@@ -341,13 +486,34 @@
 			projectRoot = "";
 			targets = (
 				1DD8995916DF3FB60082D274 /* IMKit */,
+				1D8F7AD016DFDDB00085E5DA /* MobileIMKit */,
 				1DD8998C16DF759A0082D274 /* IMServer */,
 				1DD899AB16DF7CF60082D274 /* imd */,
+				1D8F7AE816DFDE2D0085E5DA /* MobileIMTalk */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1D8F7ACD16DFDDB00085E5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8F7AE716DFDE2D0085E5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F7AF416DFDE2D0085E5DA /* InfoPlist.strings in Resources */,
+				1D8F7AFC16DFDE2E0085E5DA /* Default.png in Resources */,
+				1D8F7AFE16DFDE2E0085E5DA /* Default@2x.png in Resources */,
+				1D8F7B0016DFDE2E0085E5DA /* Default-568h@2x.png in Resources */,
+				1D8F7B0B16DFDE910085E5DA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DD8995816DF3FB60082D274 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,7 +534,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D8F7AC916DFDDB00085E5DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		1D8F7ACE16DFDDB00085E5DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "HEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Versions/$FRAMEWORK_VERSION/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$(find $FRAMEWORK_HEADERS_DIR/. -not -type d 2> /dev/null | sed -e \"s@.*/@@g\")\n\nFIND_OPTS=\"\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n  if [ -n \"$FIND_OPTS\" ]; then\n    FIND_OPTS=\"$FIND_OPTS -o\"\n  fi\n  FIND_OPTS=\"$FIND_OPTS -name '$PUBLIC_HEADER'\"\ndone\n\nif [ -n \"$FIND_OPTS\" ]; then\n  for ORIG_HEADER in $(eval \"find $HEADERS_ROOT/. $FIND_OPTS\" 2> /dev/null | sed -e \"s@^$HEADERS_ROOT/./@@g\"); do\n    PUBLIC_HEADER=$(basename $ORIG_HEADER)\n    RELATIVE_PATH=$(dirname $ORIG_HEADER)\n    if [ -e $FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER ]; then\n      mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n      mv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n    fi\n  done\nfi\n";
+		};
+		1D8F7ACF16DFDDB00085E5DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sfh \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		1D8F7ACA16DFDDB00085E5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F7ADD16DFDDCC0085E5DA /* IMMessageCenter.m in Sources */,
+				1D8F7ADE16DFDDCF0085E5DA /* IMMessage.m in Sources */,
+				1D8F7ADF16DFDDD20085E5DA /* NSData+DataSigning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8F7AE516DFDE2D0085E5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F7AF616DFDE2D0085E5DA /* main.m in Sources */,
+				1D8F7AFA16DFDE2E0085E5DA /* IMAppDelegate.m in Sources */,
+				1D8F7B0F16DFE0CF0085E5DA /* IMLoginViewController.m in Sources */,
+				1D8F7B1216DFE8210085E5DA /* IMMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DD8995516DF3FB60082D274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +628,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1D8F7AF216DFDE2D0085E5DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D8F7AF316DFDE2D0085E5DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		1DD8996616DF3FB70082D274 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,15 +655,178 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1D8F7ADA16DFDDB00085E5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+					armv7s,
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMKit/IMKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "IMKit/IMKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = MobileIMKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1D8F7ADB16DFDDB00085E5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+					armv7s,
+					i386,
+					x86_64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IMKit/IMKit-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "IMKit/IMKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = MobileIMKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1D8F7B0816DFDE2E0085E5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileIMTalk/MobileIMTalk-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MobileIMTalk/MobileIMTalk-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D8F7B0916DFDE2E0085E5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobileIMTalk/MobileIMTalk-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MobileIMTalk/MobileIMTalk-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		1DD8995116DF3BCC0082D274 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 			};
 			name = Debug;
 		};
 		1DD8995216DF3BCC0082D274 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 			};
 			name = Release;
 		};
@@ -468,6 +868,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -503,6 +904,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -652,6 +1054,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D8F7ADC16DFDDB00085E5DA /* Build configuration list for PBXNativeTarget "MobileIMKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8F7ADA16DFDDB00085E5DA /* Debug */,
+				1D8F7ADB16DFDDB00085E5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D8F7B0716DFDE2E0085E5DA /* Build configuration list for PBXNativeTarget "MobileIMTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8F7B0816DFDE2E0085E5DA /* Debug */,
+				1D8F7B0916DFDE2E0085E5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		1DD8995016DF3BCC0082D274 /* Build configuration list for PBXProject "IMClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -668,6 +1086,7 @@
 				1DD8996F16DF3FB70082D274 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DD8999916DF759A0082D274 /* Build configuration list for PBXNativeTarget "IMServer" */ = {
 			isa = XCConfigurationList;
@@ -676,6 +1095,7 @@
 				1DD8999B16DF759A0082D274 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1DD899B616DF7CF60082D274 /* Build configuration list for PBXNativeTarget "imd" */ = {
 			isa = XCConfigurationList;
@@ -684,6 +1104,7 @@
 				1DD899B816DF7CF60082D274 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

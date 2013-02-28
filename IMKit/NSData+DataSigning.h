@@ -10,6 +10,6 @@
 
 @interface NSData (DataSigning)
 
-- (NSData *)sha512 IMDeprecated("This should not be used as SSL will handle it.");
+- (NSData *)sha512;
 
 @end

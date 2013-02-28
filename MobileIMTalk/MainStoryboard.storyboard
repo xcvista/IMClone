@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="8ER-AK-5jc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller - IMTalk-->
+        <scene sceneID="qyu-hs-Phi">
+            <objects>
+                <tableViewController id="r4I-8L-tsQ" customClass="IMMainViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="3Tn-ig-Tpw">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="r4I-8L-tsQ" id="YDw-dg-u29"/>
+                            <outlet property="delegate" destination="r4I-8L-tsQ" id="wtY-D0-LJo"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="IMTalk" id="FIU-fS-Z17"/>
+                    <connections>
+                        <segue destination="c59-bF-3vQ" kind="modal" identifier="login" id="n7I-pO-hCo"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpn-mB-udV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="665" y="21"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ymi-4N-5Y3">
+            <objects>
+                <navigationController id="8ER-AK-5jc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fp4-GE-P4d">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="r4I-8L-tsQ" kind="relationship" relationship="rootViewController" id="qdP-q9-QlN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tbn-Vy-Hnv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="21"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CeG-sw-zeG">
+            <objects>
+                <navigationController storyboardIdentifier="loginRoot" id="c59-bF-3vQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Vzi-e5-G5E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0mW-Kz-yzA" kind="relationship" relationship="rootViewController" id="V8b-jm-L63"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L7e-cz-5MI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1208" y="-730"/>
+        </scene>
+        <!--Login View Controller - Login to IMTalk-->
+        <scene sceneID="dfC-I3-Xsc">
+            <objects>
+                <tableViewController id="0mW-Kz-yzA" customClass="IMLoginViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="JjO-Zn-xcv">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="0mW-Kz-yzA" id="K3j-HW-SL6"/>
+                            <outlet property="delegate" destination="0mW-Kz-yzA" id="cpu-Jx-CuC"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Login to IMTalk" id="XSq-8I-3vn">
+                        <barButtonItem key="rightBarButtonItem" title="Login" style="done" id="jUd-Vm-50d">
+                            <connections>
+                                <action selector="login:" destination="0mW-Kz-yzA" id="1P4-fX-Kuo"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6rw-Xz-EU4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1733" y="-730"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="IMLoginViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMLoginViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="login:"/>
+            </relationships>
+        </class>
+        <class className="IMMainViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IMMainViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
