@@ -52,7 +52,13 @@
 #warning This product will not function properly without -fobjc-default-synthesize-properties.
 #endif
 
+#if __has_feature(objc_instancetype)
+#define IMInstanceType instancetype
+#else
+#define IMInstanceType id
 #endif
+
+#endif // __OBJC__
 
 #if  __has_extension(attribute_deprecated_with_message)
 #define IMDeprecated(x) __attribute__((deprecated(x)))
@@ -66,10 +72,12 @@
 #define IMUnanailable(x)
 #endif
 
-#if __has_feature(objc_instancetype)
-#define IMInstanceType instancetype
+#if __has_builtin(__builtin_unreachable)
+#define IMUnrechable() __builtin_unreachable()
+#define IMNoReturn __attribute__((noreturn))
 #else
-#define IMInstanceType id
+#define IMUnrechable()
+#define IMNoReturn
 #endif
 
 #define IMKitVersion "0.1.1-1r1 (git master)"

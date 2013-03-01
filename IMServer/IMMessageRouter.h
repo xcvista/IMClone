@@ -8,6 +8,10 @@
 
 #import <IMServer/IMServerDecls.h>
 
+IMBeginDecls
+
 @interface IMMessageRouter : NSObject <IMMessageCenter>
 
 @end
+
+IMEndDecls

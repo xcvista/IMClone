@@ -11,14 +11,6 @@
 
 #import <IMKit/IMKit.h>
 
-#if __has_builtin(__builtin_unreachable)
-#define IMUnrechable() __builtin_unreachable()
-#define IMNoReturn __attribute__((noreturn))
-#else
-#define IMUnrechable()
-#define IMNoReturn
-#endif
-
 #define IMServerVersion "0.1.1-1r1 (git master)"
 
 #endif
